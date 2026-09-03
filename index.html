@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio - Emiliano</title>
+    <!-- Bulma CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#inicio">
+                    <strong><i class="fa-solid fa-meteor mr-2"></i>3dPort</strong>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#inicio">Inicio</a>
+                    <a class="navbar-item" href="#proyectos">Proyectos</a>
+                    <a class="navbar-item" href="#galeria">Galería</a>
+                    <a class="navbar-item" href="#estadisticas">Estadísticas</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero de Introducción -->
+    <section id="inicio" class="hero is-info is-medium" style="margin-top: 3.25rem;">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <p class="title is-1">Emiliano Ovalle</p>
+                <p class="subtitle is-3">Portafolio de proyectos creativos durande la carrera de ingenieria de animacion digital</p>
+                <a href="#proyectos" class="button is-light is-medium">Ver Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 1 de Contenido (Columnas) -->
+    <section id="proyectos" class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered">Proyectos Destacados</h2>
+            <div class="columns is-vcentered my-5">
+                <div class="column is-6">
+                    <h3 class="title is-4">Escultura analogica y digital de mi rostro</h3>
+                    <p class="mb-4">
+                        Aqui hice una recreacion de mi rostro en dos formatos distrnitos, plastilina
+                         y en computadora usando zbrush, cada una con sus beneficios y limitaciones
+                    </p>
+                    <div class="tags">
+                        <span class="tag is-dark">ingenieria en animacion digital</span>
+                        <span class="tag is-info">Escultura</span>
+                        <span class="tag is-primary">Modelado tridimencional</span>
+                    </div>
+                </div>
+                <div class="column is-6">
+                    <figure class="image is-16by9">
+                        <img src="/images/Escultura de tu rostro.jpg" alt="Escultura de tu rostro" style="border-radius: 8px;">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Cards (Elementos repetidos) -->
+    <section id="galeria" class="section has-background-light">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered">Catálogo de Proyectos</h2>
+            <div class="columns is-multiline mt-5">
+                
+                <!-- Card 1 -->
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-16by9">
+                                <img src="/images/Biblia de arte.jpg" alt="Galaxia de Andrómeda">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Biblia de arte</p>
+                            <p class="subtitle is-6">Creacion de personajes y escenarios</p>
+                            <div class="content">
+                                Una biblia que incluye 3 personajes y 3 escenarios creados a partir 
+                                de un consepto de mundo postapocaliptico en una mina subterranea en el futuro lejano
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-16by9">
+                                <img src="/images/Car cartoon.jpg" alt="Cúmulo Globular">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Car Cartoon</p>
+                            <p class="subtitle is-6">Jeep Wrangler</p>
+                            <div class="content">
+                              Diseno y creacion de un vehiculo con proporciones caricaturizadas en maya.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="column is-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-16by9">
+                                <img src="/images/DIorama RE.jpg" alt="Nebulosa del Cangrejo">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Dioramas: Resident evil</p>
+                            <p class="subtitle is-6">Modelado y renderizado</p>
+                            <div class="content">
+                                Creacion de dioramas a partis de escenarios de la saga popular Resident evil
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Componente Adicional (Notification / Box de Estadísticas) -->
+    <section id="estadisticas" class="section">
+        <div class="container">
+            <h2 class="title is-3 has-text-centered">Parámetros Técnicos de Registro</h2>
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="notification is-primary is-light">
+                        <h3 class="title is-4"><i class="fa-solid fa-chart-line mr-2"></i>Estadísticas Globales de Captura</h3>
+                        <p>Los datos recopilados durante el último ciclo de observación demuestran alta eficiencia en tiempos de integración:</p>
+                        <hr>
+                        <ul>
+                            <li><strong>Horas totales de integración:</strong> 340 horas</li>
+                            <li><strong>Filtros ópticos empleados:</strong> LRGB, Ha, OIII, SII</li>
+                            <li><strong>SNR Promedio:</strong> 45 dB en exposiciones unitarias de 300 segundos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer has-background-dark has-text-white">
+        <div class="content has-text-centered">
+            <p>
+                <strong>AstroPort</strong> por Juan Pérez. Desarrollado con fines académicos y profesionales.
+            </p>
+            <p class="is-size-7 has-text-grey-light">
+                Fuente de imágenes: Unsplash (Contenido de uso libre para investigación y portafolios).
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
